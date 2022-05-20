@@ -54,24 +54,6 @@ public class MainActivity extends AppCompatActivity {
 
             Toast.makeText(this, "Null", Toast.LENGTH_LONG).show();
         }
-
-
-//        Cursor cursor;
-//        try {
-//            cursor = yourCR.query(allTasks, null, null, null, "_id");
-//            if (cursor != null) {
-//                while (cursor.moveToNext()) {
-//                    @SuppressLint("Range") int id = cursor.getInt(cursor.getColumnIndex(COLUMN_ID));
-//                    @SuppressLint("Range") String task = cursor.getString(cursor.getColumnIndex(COLUMN_TASK));
-//                    @SuppressLint("Range") int status = cursor.getInt(cursor.getColumnIndex(COLUMN_STAT));
-//                    listOfTasks.add(new ListModel(id, task, status));
-//                }
-//            } else {
-//                Toast.makeText(this, "Null", Toast.LENGTH_LONG).show();
-//            }
-//        } catch (RemoteException e) {
-//            e.printStackTrace();
-//        }
         return listOfTasks;
     }
 }
