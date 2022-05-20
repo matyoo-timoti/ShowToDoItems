@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShowToDoItems</string>
+    <string name="sample_text">This is a sample text</string>
+    <string name="id">ID</string>
+    <string name="status">Status</string>
+    <string name="sample_txt">Sample Text</string>
+</resources>
